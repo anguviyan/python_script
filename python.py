@@ -168,4 +168,28 @@ print("e:{} f:{} e+f:{}".format(e,f,g))
 
 g += e
 print("g:{} g+=e:{}".format(g,e))
-############################## Bitwise Example #################################
+############################## Input Example #################################
+#name = input()
+#city = input()
+
+#print("Hello my name is",name)
+#print("I am from",city)
+
+#subject = input("Enter your subject: ")
+#teacher = input("Enter your teacher: ")
+
+#print("Name of the subject",subject)
+#print("Name of your teacher",teacher)
+
+#Number = raw_input("Enter your number. ")
+#print("Number of yours",Number)
+
+amount = str(input("Enter your weight: "))
+print("My weight is: ",amount)
+############################## Match Example #################################
+
+u = input()
+
+match u:
+    case 'a': return "a is return"
+    case _: return "Nothing"
